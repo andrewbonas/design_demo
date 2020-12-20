@@ -1,0 +1,57 @@
+html {
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  padding: 50px;
+  background-color: rgb(99, 75, 75);
+}
+
+.left-content {
+  width: 60%;
+  float: left;
+  margin-top: 50px;
+
+  padding-bottom: 700px;
+  border: red solid 1px;
+}
+
+.right-join {
+  float: right;
+  width: 30%;
+  margin-right: 40px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding-bottom: 400px;
+  background-color: gray;
+}
+
+.posts {
+  overflow: hidden;
+  padding: 500px;
+  background-color: rgb(131, 113, 113);
+}
+
+.center-join {
+  margin-top: 200px;
+  margin-right: 20px;
+  padding: 150px;
+  background-color: rgb(88, 78, 78);
+  width: 30%;
+  float: right;
+}
+
+.other-posts {
+  margin-top: 600px;
+  padding: 300px;
+  border: rgb(156, 155, 158) 1px solid;
+  background-color: rgb(97, 85, 85);
+}
+
+.contents {
+  margin-top: 30px;
+  padding: 500px;
+  background-color: rgb(87, 74, 74);
+}
