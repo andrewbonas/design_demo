@@ -1,3 +1,30 @@
+html {
+  color: white;
+}
+
+h1 {
+  margin: auto;
+  padding: 90px 0 10px 0;
+  width: 80%;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+p {
+  margin: auto;
+  width: 80%;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+}
+
+button {
+display: block;
+margin: auto;
+margin-top: 50px;
+width: 80%;
+height: 50px;
+border-radius: 5px;
+border: 1px solid rgb(94, 91, 91);
+}
 
 nav {
   width: 100%;
@@ -10,9 +37,10 @@ nav {
   width: 60%;
   float: left;
   margin-top: 50px;
-  height: 900px;
+  height: 800px;
   background-color: rgb(175, 166, 166);
   margin-bottom: 20px;
+  
 }
 
 .right-join {
@@ -21,13 +49,18 @@ nav {
   margin-right: 40px;
   margin-top: 50px;
   margin-bottom: 20px;
-  padding-bottom: 700px;
+  padding-top: 100px;
+  height: 700px;
   background-color: rgb(124, 95, 95);
+  text-align: center;
 }
 
 .posts {
+  display: grid;
+  grid-template-columns: auto auto auto;
   overflow: hidden;
-  padding: 500px;
+  height: 500px;
+  width: 100%;
   background-color: rgb(131, 113, 113);
 }
 
@@ -35,22 +68,47 @@ nav {
   margin-top: 200px;
   margin-right: 20px;
   margin-bottom: 50px;
-  height: 600px;
+  padding-top: 100px;
+  height: 500px;
   background-color: rgb(88, 78, 78);
   width: 70%;
   float: right;
+  text-align: center;
+}
+
+.center-join button {
+  width: 50%;
+}
+
+.center-join h1 {
+  font-size: 50px;
 }
 
 .other-posts {
+  display: grid;
+  grid-template-columns: auto auto auto;
   margin-top: 1000px;
-  height: 1500px;
-  background-color: rgb(219, 201, 201);
+  height: 1000px;
+  background-color: rgb(165, 157, 157);
 }
 
 .contents {
   margin-top: 30px;
-  height: 1500px;
+  padding-top: 100px;
+  height: 1000px;
   background-color: rgb(68, 61, 61);
+  text-align: center;
+}
+
+.contents h1 {
+  font-size: 80px;
+}
+
+.contents p {
+  font-size: 30px;
+}
+.contents button {
+  width: 30%;
 }
 
 .guides {
@@ -64,20 +122,37 @@ nav {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  height: 650px;
-  background-color: rgb(92, 82, 82);
+  height: 500px;
+  background-color: rgb(133, 122, 122);
 }
 
 .feature { 
+  padding-top: 10px;
   margin-top: 50px;
   background-color: rgb(65, 57, 57);
-  height: 700px;
+  height: 400px;
+}
+
+.feature h1 {
+  margin-left: 5%;
+  font-size: 50px;
+ }
+
+.feature p {
+  margin-left: 5%;
+  width: 50%;
+}
+
+.feature button {
+  margin-left: 5%;
+  width: 300px;
 }
 
 .links-head {
   margin-top: 50px;
+  padding-top: 100px;
   background-color: rgb(112, 97, 97);
-  height: 300px;
+  height: 200px;
 }
 
 .links {
@@ -91,6 +166,10 @@ nav {
   margin-top: 50px;
   background-color: rgb(156, 138, 138);
   height: 250px;
+}
+
+.link h1 {
+  padding-top: 40px;
 }
 
 footer {
